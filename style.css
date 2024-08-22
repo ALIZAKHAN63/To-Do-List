@@ -1,0 +1,29 @@
+.heading{
+    text-align: center;
+}
+#taskInput{
+    display: block;
+    margin: 0 auto; 
+    padding: 20px;
+    width: 500px;
+    border-radius: 15px;
+}
+#assignbtn{
+    display: block;
+    margin : 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(98, 167, 148);
+}
+
+#WrapCompleteTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
