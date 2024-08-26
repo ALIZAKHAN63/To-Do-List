@@ -44,14 +44,12 @@ function editTask(button) {
         (newText || currentText).trim() + 
         " <button onclick='completeTask(this)'>✔️</button>";
 }
-
-// var taskForm = document.getElementById('taskForm');
-
-// taskForm.addEventListener('submit', function(event) {
-//     event.preventDefault(); /
-//     addTask(); 
-// });
-
+var taskInput = document.getElementById('taskInput');
+taskInput.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        addTask(); 
+    }
+});
 
 
 
